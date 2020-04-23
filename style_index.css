@@ -7,9 +7,9 @@ h1{
 }
 .header img {
   float: left;
-  width: 10px;
-  height: 10px;
-  background: #555;
+  width: 10;
+  height: 10;
+  
 }
 
 .header h1 {
