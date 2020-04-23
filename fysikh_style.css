@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    color: cyan;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url("180601-atomi-mn-1540_f415a90a9f0fcbddc7dfa4cc7b5a36c3.jpg");
+    background-position: top;
+}
+table {
+    width:20%;
+    border: 2px;
+}
+
+
+
+button {
+    background-color: cyan;
+    border: 1px solid blue;
+    border-spacing:0px;
+    height: 60px;
+    width: 220px;
+    transition-duration: 0.1;
+}
+button:hover{
+    background-color: cornflowerblue;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    color: blue;
+    font-family: monospace;
+    text-decoration: none;
+    font-size:15px;
+    transition-duration: 0.1;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,122 @@
+h1{
+    text-align: center;
+    font-size: 10;
+    font-family: sans-serif, serif;
+    color: darkblue;
+    text-decoration: underline
+}
+
+h2{
+    text-align: left;
+    font-size: 3;
+    font-family: sans-serif, serif;
+    color: black;
+    text-emphasis: bold;
+
+
+}
+
+
+hr{
+    border-top: 2px solid black;
+    width: 50;
+    color: blue;
+
+}
+table{
+
+    width:13%;
+
+}
+
+
+button {
+    background-color: limegreen;
+    border:1px solid black;
+    height: 50px;
+    transition-duration: 0.1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+    background-color: greenyellow;
+    font-weight: bold;
+}
+a {
+    color : black;
+    font-size: 20;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+.button1{
+    background-color: limegreen;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+
+    margin: 2;
+    text-align: center;
+    border:1px solid black;
+    height: 70px;
+    width: 200px;
+    transition-duration: 0.1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.button2{
+      background-color: limegreen;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+
+    margin: 2;
+    text-align: center;
+    border:1px solid black;
+    height: 70px;
+    width: 200px;
+    transition-duration: 0.1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+a {
+    color : black;
+    font-size: 20;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+body{
+    animation: colorchange 50s;
+    -webkit-animation: colorchange 50s infinite;
+
+}
+
+
+@keyframes colorchange
+    {
+      0%   {background: orange;}
+      20%  {background: green};
+      40%  {background: blue;}
+      60%  {background: cyan;}
+      80%  {background: grey;}
+      100% {background: brown;}
+
+    }
+
+    @-webkit-keyframes colorchange
+    {
+      0%   {background: orange;}
+      20%  {background: green};
+      40%  {background: blue;}
+      60%  {background: cyan;}
+      80%  {background: grey;}
+      100% {background: brown;}
+
+    }
