@@ -6,7 +6,7 @@ h1{
     text-decoration: underline
 }
 .header img {
-  position: relative;
+  position: fixed;
   top: 18px;
   left: 10px;
   
